@@ -1,0 +1,8 @@
+.movie_card{
+    transition: transform 0.5s;
+    transform-origin: top left;
+}
+
+.movie_card:hover{
+    transform: scale(1.05);
+}
