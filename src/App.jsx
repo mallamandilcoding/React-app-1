@@ -3,7 +3,7 @@ import Meal from "./FoodRecipie/Meal";
 import NavigationBar from "./FoodRecipie/NavigationBar";
 
 const App = () => {
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState("canadian");
   return (
     <>
       <NavigationBar setCategory={setCategory} />

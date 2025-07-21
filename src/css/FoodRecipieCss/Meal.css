@@ -5,20 +5,18 @@
     background-color: yellow;
     width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    justify-content:space-evenly;
+    padding: 30px;
+    justify-content:space-between;
     /* align-items: center; */
 }
 
-.container > .card-div:nth-last-child(1) {
-    margin-left: 20px;
-    margin-right: auto; 
-  }
+.card-div p{
+  width: 250px;
+  font-weight: bold;
+}
 
-
-
-.card-div.last-row {
-    justify-content: flex-start; /* Align items to the left */
+.container > *:last-of-type(-n+3){
+  margin-right: auto; 
   }
 
 .img-card{

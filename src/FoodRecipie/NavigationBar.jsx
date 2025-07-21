@@ -22,49 +22,49 @@ const NavigationBar = ({ setCategory }) => {
         className="btn btn-outline-warning btn-lg fw-bold"
         onClick={handleCategory}
       >
-        ALL
+        Indian
       </button>
       <button
         type="button"
         className="btn btn-outline-primary btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Action
+        Japanese
       </button>
       <button
         type="button"
         className="btn btn-outline-secondary btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Thriller
+        American
       </button>
       <button
         type="button"
         className="btn btn-outline-success btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Animation
+        Thai
       </button>
       <button
         type="button"
         className="btn btn-outline-danger btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Horror
+        British
       </button>
       <button
         type="button"
         className="btn btn-outline-warning btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Drama
+        Russian
       </button>
       <button
         type="button"
         className="btn btn-outline-info btn-lg fw-bold"
         onClick={handleCategory}
       >
-        Sci-fi
+        Chinese
       </button>
     </div>
   );
