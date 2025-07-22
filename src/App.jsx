@@ -3,11 +3,16 @@ import Meal from "./FoodRecipie/Meal";
 import NavigationBar from "./FoodRecipie/NavigationBar";
 
 const App = () => {
-  const [category, setCategory] = useState("canadian");
+  const [category, setCategoryText] = useState("canadian");
+  const [searchText, setSearchText] = useState("");
+  // console.log(searchText);
   return (
     <>
-      <NavigationBar setCategory={setCategory} />
-      <Meal category={category} />
+      <NavigationBar
+        setCategory={setCategoryText}
+        setSearchText={setSearchText}
+      />
+      <Meal category={category} searchText={searchText} />
     </>
   );
 };

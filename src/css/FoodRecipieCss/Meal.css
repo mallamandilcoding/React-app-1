@@ -2,11 +2,11 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 1200px;
     margin: 0 auto;
     padding: 30px;
-    justify-content:space-between;
+    justify-content:flex-start;
     /* align-items: center; */
 }
 
@@ -15,9 +15,9 @@
   font-weight: bold;
 }
 
-.container > *:last-of-type(-n+3){
+/* .container > *:last-of-type(-n+3){
   margin-right: auto; 
-  }
+  } */
 
 .img-card{
     width: 250px;
