@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Product = () => {
   const [apidata, setApiData] = useState([]);
@@ -17,7 +17,7 @@ const Product = () => {
     <>
       <div>
         {apidata.map((data) => (
-          <div>
+          <div key={data.id}>
             <Link to={`/products/${data.id}`}>{data.title}</Link>
           </div>
         ))}
