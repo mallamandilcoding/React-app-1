@@ -1,0 +1,14 @@
+.navbar-div{
+    display: flex;
+    margin-top: 30px;
+}
+
+.logo-div{
+    flex-grow: 1;
+}
+
+.links-div{
+    display: flex;
+    justify-content: space-around;
+    flex-grow:6
+}

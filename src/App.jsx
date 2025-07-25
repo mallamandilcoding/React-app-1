@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Team from "./pages/Team";
 import ProductDetail from "./pages/ProductDetail";
+import NavBar from "./pages/NavBar";
+import "./css/NavBar.css";
 
 // import Meal from "./FoodRecipie/Meal";
 // import NavigationBar from "./FoodRecipie/NavigationBar";
@@ -22,7 +24,9 @@ const App = () => {
         setSearchText={setSearchText}
       />
       <Meal category={category} searchText={searchText} /> */}
+
       <Router>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
